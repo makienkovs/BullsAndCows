@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Bulls And Cows</string>
+    <string name="backgroundMain" translatable="false">background</string>
+    <string name="Title">Bulls And Cows</string>
+    <string name="Guide">Guide</string>
+    <string name="Play">Play</string>
+    <string name="Statistics">Statistics</string>
+    <string name="Wins">Wins</string>
+    <string name="Losses">Losses</string>
+    <string name="Reset">Reset</string>
+    <string name="Sure">Are you sure?</string>
+    <string name="View">Your turns:</string>
+    <string name="Answers">Your answers:</string>
+    <string name="Bestscore">Best score</string>
+    <string name="Settings">Settings</string>
+    <string name="Level">Choose your level!</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Training">Training</string>
+    <string name="Easy">Easy</string>
+    <string name="Hard">Hard</string>
+    <string name="Youcan">You can enter your number:</string>
+    <string name="Youshould">You should enter your number:</string>
+    <string name="Younumber">Your number is:</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="End">The end of the game.</string>
+    <string name="Information">Information.</string>
+    <string name="Maninput">You entered a correct number and the game begins!</string>
+    <string name="Win">You win! Do you want to replay?</string>
+    <string name="Lose">You lose!\u0020</string>
+    <string name="PhoneChoose">AI choose number:\u0020</string>
+    <string name="Replay">Do you want to replay?</string>
+    <string name="Error">You made a mistake with the answers, so the game cannot continue!</string>
+    <string name="Sound">Sound</string>
+    <string name="Vibration">Vibration</string>
+    <string name="Invalid">You entered an invalid number! Try to enter the correct one. All digits should be different!</string>
+    <string name="Guidetext1">
+        <![CDATA[
+        <h1>Game Rules:</h1>
+        <p>"Bulls and cows" is a logic game in which one of the players should guess what number the other player chosen in a few attempts.
+        In our game we are going to guess a four-digit number. The digits in this number should not be repeated.
+        </p>
+        <p>
+        The first player calls a guess, any four-digit number. If there are digits that stand on the same positions as
+        in the hidden number, these are bulls. If the numbers are the same, but they are in different positions, they are cows.
+        For example, the hidden number <b>1234</b>. The player calls <b>1256</b>. These are 2 bulls and 0 cows. If the player calls <b>3456</b> these are 2 cows and 0 bulls.
+        </p>
+        ]]>
+    </string>
+    <string name="Guidetext2">
+        <![CDATA[
+        <br>
+        <p>
+        There are helper buttons at the top of the game interface. The first click on the button turns it red, the second click turns it blue, and the
+        third click restores defaults.
+        This way you can mark the numbers that are exactly in the hidden number and numbers that are exactly not there.
+        </p>
+        ]]>
+    </string>
+    <string name="Guidetext21">
+        <![CDATA[
+        <br>
+        <p>
+        In the interface of easy and hard levels, there are buttons for entering your number.
+        At the easy level, entering of digits is mandatory, you can\'t change it after entering. On difficult level input is at will. The digits can be changed at any time, by simply taping on it.
+        Entering a number just helps you not get confused and correctly enter the quantity of bulls and cows. The description of difficulty of levels is below in this guide.
+        </p>
+        ]]>
+    </string>
+    <string name="Guidetext3">
+        <![CDATA[
+        <br>
+        <p>
+        The input field is located below the buttons. Even lower is the field where are all the responses received from the AI and the player.
+        </p>
+        ]]>
+    </string>
+    <string name="Guidetext4">
+        <![CDATA[
+        <br>
+        <p>
+        Even lower are buttons to enter digits, the erase button, buttons to enter bulls - "B" and cows "C", the button to input result "OK".
+        </p>
+        ]]>
+    </string>
+    <string name="Guidetext5">
+        <![CDATA[
+        <p><b>Our game has 3 levels of difficulty.</b></p>
+        <p>
+        <b>The first level</b> is <i>training</i>. Your task is to guess what number the AI chosen in 10 attempts.
+        </p>
+        <p>
+        <b>The second level</b> is <i>easy</i>. At the beginning, you think a number and enter it in a special field. If the number is correct
+        (all digits in it are different), the game begins. You try to guess first what number the AI has chosen.
+        You do not need to enter a response to the assumption AI, the program enter a  bulls and cows of their own.
+        </p>
+        <p>
+        Here you can think, and what prevents AI to take my hidden number, and just output it.
+        Next level is specially added for such players.
+        </p>
+        <p>
+        <b>The third level</b> is <i>difficult</i>.
+        You keep a hidden number in your head, or you can enter it in a special field, but this is completely optional. You enter bulls and cows
+        by your own in response to the AI assumption. But remember, if you make a mistake or cheat, AI will understand it, and the game will ends.
+        </p>
+        <p>
+        Choose the level of difficulty that you like and beat the AI. And remember that human intelligence is still stronger. Or maybe not?
+        </p>
+        ]]>
+    </string>
+    <string name="Defaultdescription" translatable="false">Defaultdescription</string>
+    <string name="One" translatable="false">1</string>
+    <string name="Two" translatable="false">2</string>
+    <string name="Three" translatable="false">3</string>
+    <string name="Four" translatable="false">4</string>
+    <string name="Five" translatable="false">5</string>
+    <string name="Six" translatable="false">6</string>
+    <string name="Seven" translatable="false">7</string>
+    <string name="Eight" translatable="false">8</string>
+    <string name="Nine" translatable="false">9</string>
+    <string name="Null" translatable="false">0</string>
+    <string name="Bull" translatable="false">B</string>
+    <string name="Del" translatable="false">←</string>
+    <string name="Cow" translatable="false">C</string>
+    <string name="Ok" translatable="false">OK</string>
+</resources>

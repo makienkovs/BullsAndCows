@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sheet"
+    tools:context=".GuideActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewGuide1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewHelpButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:contentDescription="@string/Defaultdescription"
+                app:srcCompat="@drawable/helpbuttons" />
+
+            <TextView
+                android:id="@+id/textViewGuide2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:contentDescription="@string/Defaultdescription"
+                app:srcCompat="@drawable/inputnumbers" />
+
+            <TextView
+                android:id="@+id/textViewGuide21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewInput"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:contentDescription="@string/Defaultdescription"
+                app:srcCompat="@drawable/input" />
+
+            <TextView
+                android:id="@+id/textViewGuide3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageViewActionButtons"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:contentDescription="@string/Defaultdescription"
+                app:srcCompat="@drawable/actionbuttons" />
+
+            <TextView
+                android:id="@+id/textViewGuide4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewGuide5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="34dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
